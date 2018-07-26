@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.Stack;
-//https://stackoverflow.com/questions/23187539/java-balanced-expressions-check#
 
 public class Task3 {
     public static boolean isBalanced(String expression) {
