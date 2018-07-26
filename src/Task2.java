@@ -14,7 +14,24 @@ public class Task2 {
         int dim;
         dim = input.nextInt();
 
-        for (int i = 0; i < dim; i+=2) {
+        System.out.println("Triangle length: " + dim);
+        
+        if ((dim % 2) == 1) {
+        	for (int i = 0; i < dim; i+=2) {
+                for (int k = i; k < dim; k++) {
+                    System.out.print(" ");
+                }
+                for (int j = 0; j <= i; j++) {
+
+                    System.out.print("*");
+                    System.out.print(" ");
+                }
+                System.out.println("");
+        	}}
+        	else {
+        
+        
+        for (int i = 1; i < dim; i+=2) {
             for (int k = i; k < dim; k++) {
                 System.out.print(" ");
             }
@@ -25,5 +42,5 @@ public class Task2 {
             }
             System.out.println("");
         }
+    }}
     }
-}
